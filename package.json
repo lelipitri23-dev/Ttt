@@ -15,8 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    // Jika Anda menggunakan Tailwind dan PostCSS terpisah, Anda mungkin perlu script tambahan:
-    // "watch:css": "postcss src/index.css -o src/tailwind.css" 
+    "watch:css": "postcss src/index.css -o src/tailwind.css" 
   },
   "eslintConfig": {
     "extends": [
@@ -37,9 +36,9 @@
     ]
   },
   "devDependencies": {
-    // Tambahkan dependensi Tailwind CSS di sini
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3"
   }
 }
+
